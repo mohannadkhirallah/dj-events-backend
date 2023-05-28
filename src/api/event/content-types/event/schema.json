@@ -50,6 +50,12 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "events"
+    },
+    "Notes": {
+      "type": "richtext"
+    },
+    "Phone": {
+      "type": "string"
     }
   }
 }
