@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bannars",
+  "info": {
+    "singularName": "bannar",
+    "pluralName": "bannars",
+    "displayName": "Bannar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "CSS": {
+      "type": "richtext"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}
